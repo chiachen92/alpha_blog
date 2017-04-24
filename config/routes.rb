@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # get 'pages/home', to: 'pages#home'
   # root 'pages#home'
   # get 'pages/about', to: 'pages#about'
- 
+  root 'home#home', as: :root
   resources :articles
 #   This will add the following routes:
 #

@@ -12,5 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bpptstrap-sprockets
 //= require turbolinks
 //= require_tree .
