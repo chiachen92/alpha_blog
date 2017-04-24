@@ -9,8 +9,12 @@
   </head>
 
   <body>
-    <%= link_to 'Home', pages_home_path %>
-    <%= link_to 'About', pages_about_path %>
+  
+    <% flash.each do |name, msg| %>
+    <ul>
+      <li><%= msg %></li>
+    </ul>
+    <% end %>
     <%= yield %>
   </body>
 </html>
